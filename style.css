@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.upper-head {
+    background-color: #FFCD9E;
+    padding-inline: 100px;
+    padding-block: 68px;
+}
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-div>.p1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #282828;
+}
+.text-div>.p2 {
+    font-weight: 520;
+    font-size: 23px;
+    line-height: 32px;
+    color: #484848;
+}
+.text-div>.p3 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 32px;
+}
+.button-div {
+    display: flex;
+    gap: 20px;
+}
+.text-div>.p3 {
+    display: block;
+}
+.text-div>.p4 {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.headImg>img {
+    /* width: 475px; */
+    width: 495px;
+    height: 495px;
+}
+.button-div>input {
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 5.5px;
+    font-weight: 600;
+    color: #888888;
+    border: 2px solid black;
+}
+.button-div>button {
+    width: 129px;
+    border-radius: 5px;
+    border: none;
+    background-color: #282828;
+    color: white;
+    font-weight: 700;
+}
+
+/* footer */
+
+.footer {
+    padding-inline: 150px;
+    padding-block: 68px;
+    background-color: #282828;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+.footerMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.footerImg {
+    display: flex;
+    justify-content: right;
+}
+.footerLeft>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-weight: 400;
+}
+.footerRight>ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-weight: 400;
+}
+.email {
+    margin-top: 15px;
+}
